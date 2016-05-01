@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0914BA7B1CD454E300B81762 /* SecondLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0914BA7A1CD454E300B81762 /* SecondLevel.swift */; };
+		092A98ED1CCAC91A009852E2 /* BitorAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A98EC1CCAC91A009852E2 /* BitorAnimations.swift */; };
+		092A99211CCC2E32009852E2 /* win1.png in Resources */ = {isa = PBXBuildFile; fileRef = 092A99191CCC2E32009852E2 /* win1.png */; };
+		092A99221CCC2E32009852E2 /* win1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 092A991A1CCC2E32009852E2 /* win1@2x.png */; };
+		092A99231CCC2E32009852E2 /* win1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 092A991B1CCC2E32009852E2 /* win1@3x.png */; };
+		092A99241CCC2E32009852E2 /* win2.png in Resources */ = {isa = PBXBuildFile; fileRef = 092A991C1CCC2E32009852E2 /* win2.png */; };
+		092A99251CCC2E32009852E2 /* win2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 092A991D1CCC2E32009852E2 /* win2@2x.png */; };
+		092A99261CCC2E32009852E2 /* win2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 092A991E1CCC2E32009852E2 /* win2@3x.png */; };
+		092A99271CCC2E32009852E2 /* win3.png in Resources */ = {isa = PBXBuildFile; fileRef = 092A991F1CCC2E32009852E2 /* win3.png */; };
+		092A99281CCC2E32009852E2 /* win3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 092A99201CCC2E32009852E2 /* win3@2x.png */; };
+		095D0B411C3F2EE10018CE10 /* teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D0B401C3F2EE10018CE10 /* teste.swift */; };
+		09CDAB571C403BC1004D2980 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDAB561C403BC1004D2980 /* ScrollView.swift */; };
+		09CFC9871C3EE99E00EE83EE /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC9861C3EE99E00EE83EE /* Level.swift */; };
+		09CFC98A1C3EEA7A00EE83EE /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC9891C3EEA7A00EE83EE /* Action.swift */; };
+		09CFC98C1C3EEE8C00EE83EE /* LevelProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC98B1C3EEE8C00EE83EE /* LevelProperties.swift */; };
+		09CFC98E1C3EEE9900EE83EE /* ActionProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CFC98D1C3EEE9900EE83EE /* ActionProperties.swift */; };
+		1B266B001C22EA6A00A858D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B266AFF1C22EA6A00A858D0 /* AppDelegate.swift */; };
+		1B266B041C22EA6A00A858D0 /* InitialScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B266B031C22EA6A00A858D0 /* InitialScene.swift */; };
+		1B266B061C22EA6A00A858D0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B266B051C22EA6A00A858D0 /* GameViewController.swift */; };
+		1B266B091C22EA6A00A858D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B266B071C22EA6A00A858D0 /* Main.storyboard */; };
+		1B266B0B1C22EA6A00A858D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B266B0A1C22EA6A00A858D0 /* Assets.xcassets */; };
+		1B266B0E1C22EA6A00A858D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B266B0C1C22EA6A00A858D0 /* LaunchScreen.storyboard */; };
+		1B266B191C22EA6A00A858D0 /* Bit_landiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B266B181C22EA6A00A858D0 /* Bit_landiaTests.swift */; };
+		1B266B241C22EA6A00A858D0 /* Bit_landiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B266B231C22EA6A00A858D0 /* Bit_landiaUITests.swift */; };
+		1B886B3D1C236B8000A63D9D /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B886B3C1C236B8000A63D9D /* MenuScene.swift */; };
+		1B886B3F1C23812600A63D9D /* LevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B886B3E1C23812600A63D9D /* LevelScene.swift */; };
+		86A73F821C4B26F0008C2FB3 /* SF Atarian System.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86A73F811C4B2668008C2FB3 /* SF Atarian System.ttf */; };
+		86A73F831C4B26F1008C2FB3 /* SF Atarian System.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86A73F811C4B2668008C2FB3 /* SF Atarian System.ttf */; };
+		86A73F841C4B26F1008C2FB3 /* SF Atarian System.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86A73F811C4B2668008C2FB3 /* SF Atarian System.ttf */; };
+		86E76F261C4C675C00D9F79A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E76F241C4C675C00D9F79A /* 1.png */; };
+		86E76F271C4C675C00D9F79A /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E76F251C4C675C00D9F79A /* 2.png */; };
+		86E76F361C4D71D800D9F79A /* robot.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 86E76F351C4D71D800D9F79A /* robot.atlas */; };
+		86EE8B601C27526D0078C5B0 /* ScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EE8B5F1C27526D0078C5B0 /* ScoreVC.swift */; };
+		86FF7C021C4863EB007B0CB9 /* bitland.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86FF7C011C4863EB007B0CB9 /* bitland.wav */; };
+		86FF7C041C4865B5007B0CB9 /* botão(ida).wav in Resources */ = {isa = PBXBuildFile; fileRef = 86FF7C031C4865B5007B0CB9 /* botão(ida).wav */; };
+		86FF7C061C48664A007B0CB9 /* botão(volta).wav in Resources */ = {isa = PBXBuildFile; fileRef = 86FF7C051C48664A007B0CB9 /* botão(volta).wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B266B151C22EA6A00A858D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B266AF41C22EA6A00A858D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B266AFB1C22EA6A00A858D0;
+			remoteInfo = "Bit-landia";
+		};
+		1B266B201C22EA6A00A858D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B266AF41C22EA6A00A858D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B266AFB1C22EA6A00A858D0;
+			remoteInfo = "Bit-landia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0914BA7A1CD454E300B81762 /* SecondLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondLevel.swift; sourceTree = "<group>"; };
+		092A98EC1CCAC91A009852E2 /* BitorAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitorAnimations.swift; sourceTree = "<group>"; };
+		092A99191CCC2E32009852E2 /* win1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = win1.png; sourceTree = "<group>"; };
+		092A991A1CCC2E32009852E2 /* win1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "win1@2x.png"; sourceTree = "<group>"; };
+		092A991B1CCC2E32009852E2 /* win1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "win1@3x.png"; sourceTree = "<group>"; };
+		092A991C1CCC2E32009852E2 /* win2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = win2.png; sourceTree = "<group>"; };
+		092A991D1CCC2E32009852E2 /* win2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "win2@2x.png"; sourceTree = "<group>"; };
+		092A991E1CCC2E32009852E2 /* win2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "win2@3x.png"; sourceTree = "<group>"; };
+		092A991F1CCC2E32009852E2 /* win3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = win3.png; sourceTree = "<group>"; };
+		092A99201CCC2E32009852E2 /* win3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "win3@2x.png"; sourceTree = "<group>"; };
+		095D0B401C3F2EE10018CE10 /* teste.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = teste.swift; sourceTree = "<group>"; };
+		09CDAB561C403BC1004D2980 /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		09CFC9861C3EE99E00EE83EE /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		09CFC9891C3EEA7A00EE83EE /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		09CFC98B1C3EEE8C00EE83EE /* LevelProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelProperties.swift; sourceTree = "<group>"; };
+		09CFC98D1C3EEE9900EE83EE /* ActionProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionProperties.swift; sourceTree = "<group>"; };
+		1B266AFC1C22EA6A00A858D0 /* Bit-landia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bit-landia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B266AFF1C22EA6A00A858D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B266B031C22EA6A00A858D0 /* InitialScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScene.swift; sourceTree = "<group>"; };
+		1B266B051C22EA6A00A858D0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1B266B081C22EA6A00A858D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B266B0A1C22EA6A00A858D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B266B0D1C22EA6A00A858D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B266B0F1C22EA6A00A858D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B266B141C22EA6A00A858D0 /* Bit-landiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bit-landiaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B266B181C22EA6A00A858D0 /* Bit_landiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bit_landiaTests.swift; sourceTree = "<group>"; };
+		1B266B1A1C22EA6A00A858D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B266B1F1C22EA6A00A858D0 /* Bit-landiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bit-landiaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B266B231C22EA6A00A858D0 /* Bit_landiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bit_landiaUITests.swift; sourceTree = "<group>"; };
+		1B266B251C22EA6A00A858D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B886B3C1C236B8000A63D9D /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		1B886B3E1C23812600A63D9D /* LevelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelScene.swift; sourceTree = "<group>"; };
+		86A73F811C4B2668008C2FB3 /* SF Atarian System.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Atarian System.ttf"; sourceTree = "<group>"; };
+		86E76F241C4C675C00D9F79A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		86E76F251C4C675C00D9F79A /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		86E76F351C4D71D800D9F79A /* robot.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = robot.atlas; sourceTree = "<group>"; };
+		86EE8B5F1C27526D0078C5B0 /* ScoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreVC.swift; sourceTree = "<group>"; };
+		86FF7C011C4863EB007B0CB9 /* bitland.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bitland.wav; sourceTree = "<group>"; };
+		86FF7C031C4865B5007B0CB9 /* botão(ida).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "botão(ida).wav"; sourceTree = "<group>"; };
+		86FF7C051C48664A007B0CB9 /* botão(volta).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "botão(volta).wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B266AF91C22EA6A00A858D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B266B111C22EA6A00A858D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B266B1C1C22EA6A00A858D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092A992A1CCC2E40009852E2 /* ganhei.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				092A99191CCC2E32009852E2 /* win1.png */,
+				092A991A1CCC2E32009852E2 /* win1@2x.png */,
+				092A991B1CCC2E32009852E2 /* win1@3x.png */,
+				092A991C1CCC2E32009852E2 /* win2.png */,
+				092A991D1CCC2E32009852E2 /* win2@2x.png */,
+				092A991E1CCC2E32009852E2 /* win2@3x.png */,
+				092A991F1CCC2E32009852E2 /* win3.png */,
+				092A99201CCC2E32009852E2 /* win3@2x.png */,
+			);
+			name = ganhei.atlas;
+			sourceTree = "<group>";
+		};
+		09CFC9821C3EE91100EE83EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B266AFF1C22EA6A00A858D0 /* AppDelegate.swift */,
+				09CFC9891C3EEA7A00EE83EE /* Action.swift */,
+				09CFC98D1C3EEE9900EE83EE /* ActionProperties.swift */,
+				09CFC9861C3EE99E00EE83EE /* Level.swift */,
+				09CFC98B1C3EEE8C00EE83EE /* LevelProperties.swift */,
+				092A98EC1CCAC91A009852E2 /* BitorAnimations.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		09CFC9831C3EE91700EE83EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B266B071C22EA6A00A858D0 /* Main.storyboard */,
+				1B266B0C1C22EA6A00A858D0 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		09CFC9841C3EE92600EE83EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				86EE8B5F1C27526D0078C5B0 /* ScoreVC.swift */,
+				1B266B051C22EA6A00A858D0 /* GameViewController.swift */,
+				1B266B031C22EA6A00A858D0 /* InitialScene.swift */,
+				1B886B3C1C236B8000A63D9D /* MenuScene.swift */,
+				1B886B3E1C23812600A63D9D /* LevelScene.swift */,
+				0914BA7A1CD454E300B81762 /* SecondLevel.swift */,
+				095D0B401C3F2EE10018CE10 /* teste.swift */,
+				09CDAB561C403BC1004D2980 /* ScrollView.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		09CFC9851C3EE92F00EE83EE /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				86E76F281C4C677800D9F79A /* carrossel.atlas */,
+				86FF7C011C4863EB007B0CB9 /* bitland.wav */,
+				86A73F811C4B2668008C2FB3 /* SF Atarian System.ttf */,
+				86FF7C051C48664A007B0CB9 /* botão(volta).wav */,
+				86FF7C031C4865B5007B0CB9 /* botão(ida).wav */,
+				1B266B0A1C22EA6A00A858D0 /* Assets.xcassets */,
+				092A992A1CCC2E40009852E2 /* ganhei.atlas */,
+				86E76F351C4D71D800D9F79A /* robot.atlas */,
+			);
+			name = SupportingFile;
+			sourceTree = "<group>";
+		};
+		1B266AF31C22EA6A00A858D0 = {
+			isa = PBXGroup;
+			children = (
+				1B266AFE1C22EA6A00A858D0 /* Bit-landia */,
+				1B266B171C22EA6A00A858D0 /* Bit-landiaTests */,
+				1B266B221C22EA6A00A858D0 /* Bit-landiaUITests */,
+				1B266AFD1C22EA6A00A858D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B266AFD1C22EA6A00A858D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B266AFC1C22EA6A00A858D0 /* Bit-landia.app */,
+				1B266B141C22EA6A00A858D0 /* Bit-landiaTests.xctest */,
+				1B266B1F1C22EA6A00A858D0 /* Bit-landiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B266AFE1C22EA6A00A858D0 /* Bit-landia */ = {
+			isa = PBXGroup;
+			children = (
+				09CFC9821C3EE91100EE83EE /* Model */,
+				09CFC9831C3EE91700EE83EE /* View */,
+				09CFC9841C3EE92600EE83EE /* Controller */,
+				09CFC9851C3EE92F00EE83EE /* SupportingFile */,
+				1B266B0F1C22EA6A00A858D0 /* Info.plist */,
+			);
+			path = "Bit-landia";
+			sourceTree = "<group>";
+		};
+		1B266B171C22EA6A00A858D0 /* Bit-landiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B266B181C22EA6A00A858D0 /* Bit_landiaTests.swift */,
+				1B266B1A1C22EA6A00A858D0 /* Info.plist */,
+			);
+			path = "Bit-landiaTests";
+			sourceTree = "<group>";
+		};
+		1B266B221C22EA6A00A858D0 /* Bit-landiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B266B231C22EA6A00A858D0 /* Bit_landiaUITests.swift */,
+				1B266B251C22EA6A00A858D0 /* Info.plist */,
+			);
+			path = "Bit-landiaUITests";
+			sourceTree = "<group>";
+		};
+		86E76F281C4C677800D9F79A /* carrossel.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				86E76F241C4C675C00D9F79A /* 1.png */,
+				86E76F251C4C675C00D9F79A /* 2.png */,
+			);
+			name = carrossel.atlas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B266AFB1C22EA6A00A858D0 /* Bit-landia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B266B281C22EA6A00A858D0 /* Build configuration list for PBXNativeTarget "Bit-landia" */;
+			buildPhases = (
+				1B266AF81C22EA6A00A858D0 /* Sources */,
+				1B266AF91C22EA6A00A858D0 /* Frameworks */,
+				1B266AFA1C22EA6A00A858D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bit-landia";
+			productName = "Bit-landia";
+			productReference = 1B266AFC1C22EA6A00A858D0 /* Bit-landia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B266B131C22EA6A00A858D0 /* Bit-landiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B266B2B1C22EA6A00A858D0 /* Build configuration list for PBXNativeTarget "Bit-landiaTests" */;
+			buildPhases = (
+				1B266B101C22EA6A00A858D0 /* Sources */,
+				1B266B111C22EA6A00A858D0 /* Frameworks */,
+				1B266B121C22EA6A00A858D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B266B161C22EA6A00A858D0 /* PBXTargetDependency */,
+			);
+			name = "Bit-landiaTests";
+			productName = "Bit-landiaTests";
+			productReference = 1B266B141C22EA6A00A858D0 /* Bit-landiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B266B1E1C22EA6A00A858D0 /* Bit-landiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B266B2E1C22EA6A00A858D0 /* Build configuration list for PBXNativeTarget "Bit-landiaUITests" */;
+			buildPhases = (
+				1B266B1B1C22EA6A00A858D0 /* Sources */,
+				1B266B1C1C22EA6A00A858D0 /* Frameworks */,
+				1B266B1D1C22EA6A00A858D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B266B211C22EA6A00A858D0 /* PBXTargetDependency */,
+			);
+			name = "Bit-landiaUITests";
+			productName = "Bit-landiaUITests";
+			productReference = 1B266B1F1C22EA6A00A858D0 /* Bit-landiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B266AF41C22EA6A00A858D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Tamyres Freitas";
+				TargetAttributes = {
+					1B266AFB1C22EA6A00A858D0 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					1B266B131C22EA6A00A858D0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1B266AFB1C22EA6A00A858D0;
+					};
+					1B266B1E1C22EA6A00A858D0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1B266AFB1C22EA6A00A858D0;
+					};
+				};
+			};
+			buildConfigurationList = 1B266AF71C22EA6A00A858D0 /* Build configuration list for PBXProject "Bit-landia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B266AF31C22EA6A00A858D0;
+			productRefGroup = 1B266AFD1C22EA6A00A858D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B266AFB1C22EA6A00A858D0 /* Bit-landia */,
+				1B266B131C22EA6A00A858D0 /* Bit-landiaTests */,
+				1B266B1E1C22EA6A00A858D0 /* Bit-landiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B266AFA1C22EA6A00A858D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E76F261C4C675C00D9F79A /* 1.png in Resources */,
+				092A99271CCC2E32009852E2 /* win3.png in Resources */,
+				86FF7C021C4863EB007B0CB9 /* bitland.wav in Resources */,
+				092A99231CCC2E32009852E2 /* win1@3x.png in Resources */,
+				86E76F271C4C675C00D9F79A /* 2.png in Resources */,
+				86E76F361C4D71D800D9F79A /* robot.atlas in Resources */,
+				092A99241CCC2E32009852E2 /* win2.png in Resources */,
+				86FF7C041C4865B5007B0CB9 /* botão(ida).wav in Resources */,
+				092A99211CCC2E32009852E2 /* win1.png in Resources */,
+				1B266B0E1C22EA6A00A858D0 /* LaunchScreen.storyboard in Resources */,
+				092A99261CCC2E32009852E2 /* win2@3x.png in Resources */,
+				092A99221CCC2E32009852E2 /* win1@2x.png in Resources */,
+				092A99251CCC2E32009852E2 /* win2@2x.png in Resources */,
+				092A99281CCC2E32009852E2 /* win3@2x.png in Resources */,
+				86FF7C061C48664A007B0CB9 /* botão(volta).wav in Resources */,
+				86A73F821C4B26F0008C2FB3 /* SF Atarian System.ttf in Resources */,
+				1B266B0B1C22EA6A00A858D0 /* Assets.xcassets in Resources */,
+				1B266B091C22EA6A00A858D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B266B121C22EA6A00A858D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A73F831C4B26F1008C2FB3 /* SF Atarian System.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B266B1D1C22EA6A00A858D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A73F841C4B26F1008C2FB3 /* SF Atarian System.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B266AF81C22EA6A00A858D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B886B3F1C23812600A63D9D /* LevelScene.swift in Sources */,
+				86EE8B601C27526D0078C5B0 /* ScoreVC.swift in Sources */,
+				1B266B041C22EA6A00A858D0 /* InitialScene.swift in Sources */,
+				09CFC9871C3EE99E00EE83EE /* Level.swift in Sources */,
+				09CFC98E1C3EEE9900EE83EE /* ActionProperties.swift in Sources */,
+				09CDAB571C403BC1004D2980 /* ScrollView.swift in Sources */,
+				09CFC98C1C3EEE8C00EE83EE /* LevelProperties.swift in Sources */,
+				095D0B411C3F2EE10018CE10 /* teste.swift in Sources */,
+				1B266B061C22EA6A00A858D0 /* GameViewController.swift in Sources */,
+				09CFC98A1C3EEA7A00EE83EE /* Action.swift in Sources */,
+				0914BA7B1CD454E300B81762 /* SecondLevel.swift in Sources */,
+				1B886B3D1C236B8000A63D9D /* MenuScene.swift in Sources */,
+				1B266B001C22EA6A00A858D0 /* AppDelegate.swift in Sources */,
+				092A98ED1CCAC91A009852E2 /* BitorAnimations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B266B101C22EA6A00A858D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B266B191C22EA6A00A858D0 /* Bit_landiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B266B1B1C22EA6A00A858D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B266B241C22EA6A00A858D0 /* Bit_landiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B266B161C22EA6A00A858D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B266AFB1C22EA6A00A858D0 /* Bit-landia */;
+			targetProxy = 1B266B151C22EA6A00A858D0 /* PBXContainerItemProxy */;
+		};
+		1B266B211C22EA6A00A858D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B266AFB1C22EA6A00A858D0 /* Bit-landia */;
+			targetProxy = 1B266B201C22EA6A00A858D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B266B071C22EA6A00A858D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B266B081C22EA6A00A858D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B266B0C1C22EA6A00A858D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B266B0D1C22EA6A00A858D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B266B261C22EA6A00A858D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B266B271C22EA6A00A858D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B266B291C22EA6A00A858D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bit-landia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MMT.Bit-landia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1B266B2A1C22EA6A00A858D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bit-landia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MMT.Bit-landia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1B266B2C1C22EA6A00A858D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Bit-landiaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MMT.Bit-landiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bit-landia.app/Bit-landia";
+			};
+			name = Debug;
+		};
+		1B266B2D1C22EA6A00A858D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bit-landiaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MMT.Bit-landiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bit-landia.app/Bit-landia";
+			};
+			name = Release;
+		};
+		1B266B2F1C22EA6A00A858D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Bit-landiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MMT.Bit-landiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bit-landia";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1B266B301C22EA6A00A858D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bit-landiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MMT.Bit-landiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bit-landia";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B266AF71C22EA6A00A858D0 /* Build configuration list for PBXProject "Bit-landia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B266B261C22EA6A00A858D0 /* Debug */,
+				1B266B271C22EA6A00A858D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B266B281C22EA6A00A858D0 /* Build configuration list for PBXNativeTarget "Bit-landia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B266B291C22EA6A00A858D0 /* Debug */,
+				1B266B2A1C22EA6A00A858D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B266B2B1C22EA6A00A858D0 /* Build configuration list for PBXNativeTarget "Bit-landiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B266B2C1C22EA6A00A858D0 /* Debug */,
+				1B266B2D1C22EA6A00A858D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B266B2E1C22EA6A00A858D0 /* Build configuration list for PBXNativeTarget "Bit-landiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B266B2F1C22EA6A00A858D0 /* Debug */,
+				1B266B301C22EA6A00A858D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B266AF41C22EA6A00A858D0 /* Project object */;
+}
