@@ -44,6 +44,8 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleDisplayName</key>
+	<string>Maria Carolina Marinho Séves Santos</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>SF Atarian System.ttf</string>
