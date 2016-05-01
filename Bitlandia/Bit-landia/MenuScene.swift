@@ -209,26 +209,25 @@ class MenuScene: SKScene {
     
     func restartAction(sender:UIButton!) {
         
-        visualEffectView.removeFromSuperview()
-        blurView.removeFromSuperview()
-        
         let firstScene = LevelScene(size: self.size)
         //                firstScene.passed = pass
-        let transition = SKTransition.pushWithDirection(SKTransitionDirection.Left, duration: 1)
+        let transition = SKTransition.moveInWithDirection(.Down, duration: 1)
         firstScene.scaleMode = SKSceneScaleMode.AspectFill
         self.scene!.view?.presentScene(firstScene, transition: transition)
+        
+        visualEffectView.removeFromSuperview()
+        blurView.removeFromSuperview()
         
     }
     
     func gotoRC(sender:UIButton!) {
+        let secondScene = SecondLevel(size: self.size)
+        let transition = SKTransition.moveInWithDirection(.Down, duration: 1)
+        secondScene.scaleMode = SKSceneScaleMode.AspectFill
+        self.scene!.view?.presentScene(secondScene, transition: transition)
         
         visualEffectView.removeFromSuperview()
         blurView.removeFromSuperview()
-        
-        let secondScene = SecondLevel(size: self.size)
-        let transition = SKTransition.pushWithDirection(SKTransitionDirection.Left, duration: 1)
-        secondScene.scaleMode = SKSceneScaleMode.AspectFill
-        self.scene!.view?.presentScene(secondScene, transition: transition)
         
     }
     

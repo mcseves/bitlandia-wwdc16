@@ -191,7 +191,7 @@ class LevelScene: SKScene, SKPhysicsContactDelegate {
     func createBackground() {
         let background = SKSpriteNode(imageNamed: "background")
         background.position = CGPointMake(frame.size.width/2, frame.size.height/2)
-        background.zPosition = -10
+        background.zPosition = -100
         background.size = self.frame.size
         background.userInteractionEnabled = false
         background.name = "not movable"
@@ -213,7 +213,7 @@ class LevelScene: SKScene, SKPhysicsContactDelegate {
         carousel1.position = CGPoint(x: 380, y: 250)
         carousel1.size = CGSizeMake(carousel1.size.width/3.3, carousel1.size.height/3.3)
         carousel1.name = "carousel"
-        carousel1.zPosition = 3
+        carousel1.zPosition = 10
         addChild(carousel1)
         
     }
@@ -222,7 +222,7 @@ class LevelScene: SKScene, SKPhysicsContactDelegate {
     
     func robotInitial(){
         robot1.position = CGPoint(x: 150, y: 150)
-        robot1.zPosition = 50
+        robot1.zPosition = 0
         robot1.size = CGSizeMake(robot1.size.width/4, robot1.size.height/4)
         addChild(robot1)
         
@@ -256,7 +256,7 @@ class LevelScene: SKScene, SKPhysicsContactDelegate {
             
             let offsetFraction = (CGFloat(index)+1.0) / (CGFloat(5) + 0.8)
             newAc.position = CGPoint(x: size.width/1.08, y: size.height * offsetFraction)
-            newAc.zPosition = 0
+            newAc.zPosition = 50
             
             newAc.userInteractionEnabled = false
             
@@ -289,7 +289,7 @@ class LevelScene: SKScene, SKPhysicsContactDelegate {
 //            newImage.xScale = 0.8
 //            newImage.yScale = 0.8
             newImage.position = CGPointMake(actionsPositionX[index], actionsPositionY[index])
-            newImage.zPosition = -3
+            newImage.zPosition = 0
             
             newImage.userInteractionEnabled = true
             
@@ -313,7 +313,7 @@ class LevelScene: SKScene, SKPhysicsContactDelegate {
             let offsetFraction = (CGFloat(index)+1.0) / (CGFloat(actionLevel[0].solve.count) + 2)
             
             box.position = CGPoint(x: size.width * offsetFraction - (self.view?.frame.width)!/20, y: size.height/8)
-            box.zPosition = -4
+            box.zPosition = 0
             
             boxPositionX.append(box.position.x)
             boxPositionY.append(box.position.y)
@@ -352,7 +352,7 @@ class LevelScene: SKScene, SKPhysicsContactDelegate {
         let sequence = SKAction.sequence([liftUp, liftDown])
         
         pointingHand.position = CGPointMake(actionsPositionX[0]-110, actionsPositionY[0]+60)
-        pointingHand.zPosition = 12
+        pointingHand.zPosition = 90
         pointingHand.size = CGSize(width: pointingHand.size.width*2.7, height: pointingHand.size.height*2.7)
         pointingHand.name = "moving hand"
         pointingHand.userInteractionEnabled = false
@@ -370,7 +370,7 @@ class LevelScene: SKScene, SKPhysicsContactDelegate {
         movingHand.position = CGPointMake(actionsPositionX[0], actionsPositionY[0]-50)
         movingHand.xScale = 1.3
         movingHand.yScale = 1.3
-        movingHand.zPosition = 20
+        movingHand.zPosition = 90
         
         let waiting = SKAction.waitForDuration(2)
         

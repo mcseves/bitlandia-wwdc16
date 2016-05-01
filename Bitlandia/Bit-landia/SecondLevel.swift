@@ -360,9 +360,9 @@ class SecondLevel: SKScene, SKPhysicsContactDelegate {
                         }
                         else if boxAnswer[i] == 6 {
                             let upCar = SKAction.rotateToAngle(1.3, duration: 0.1)
-                            let move1 = SKAction.moveTo(CGPointMake(180, 260), duration: 0.5)
-                            let upcar2 = SKAction.rotateToAngle(1.29, duration: 0.001)
-                            let upMov = SKAction.moveTo(CGPointMake(250, 360), duration: 0.5)
+                            let move1 = SKAction.moveTo(CGPointMake(170, 260), duration: 0.5)
+                            let upcar2 = SKAction.rotateToAngle(1.25, duration: 0.001)
+                            let upMov = SKAction.moveTo(CGPointMake(250, 370), duration: 0.5)
                             carSequence.append(upCar)
                             carSequence.append(move1)
                             carSequence.append(upcar2)
@@ -371,16 +371,18 @@ class SecondLevel: SKScene, SKPhysicsContactDelegate {
                             
                         }
                         else if boxAnswer[i] == 9 {
-                            let downcar = SKAction.rotateToAngle(-1.3, duration: 0.001)
-                            let movedown = SKAction.moveTo(CGPointMake(330, 240), duration: 0.3)
+                            let moving = SKAction.moveTo(CGPointMake(260, 370), duration: 0.4)
+                            let downcar = SKAction.rotateToAngle(-1.1, duration: 0.001)
+                            let movedown = SKAction.moveTo(CGPointMake(330, 240), duration: 1)
                             let downcar2 = SKAction.rotateToAngle(0, duration: 0.001)
-                            let moveright = SKAction.moveTo(CGPointMake(373, 255), duration: 0.2)
-                            let downcar3 = SKAction.rotateToAngle(-1.2, duration: 0.001)
-                            let movedown2 = SKAction.moveTo(CGPointMake(432, 203), duration: 0.2)
-                            let upagain = SKAction.rotateToAngle(0.3, duration: 0.001)
+                            let moveright = SKAction.moveTo(CGPointMake(373, 255), duration: 1)
+                            let downcar3 = SKAction.rotateToAngle(-1, duration: 0.001)
+                            let movedown2 = SKAction.moveTo(CGPointMake(432, 203), duration: 1)
+                            let upagain = SKAction.rotateToAngle(0.4, duration: 0.001)
                             let moveloop = SKAction.moveTo(CGPointMake(530, 250), duration: 0.2)
                             let upagain2 = SKAction.rotateToAngle(0.6, duration: 0.001)
                             
+                            carSequence.append(moving)
                             carSequence.append(downcar)
                             carSequence.append(movedown)
                             carSequence.append(downcar2)
@@ -393,19 +395,19 @@ class SecondLevel: SKScene, SKPhysicsContactDelegate {
                             
                         }
                         else if boxAnswer[i] == 8 {
-                            let little = SKAction.moveTo(CGPointMake(560, 290), duration: 0.2)
+                            let little = SKAction.moveTo(CGPointMake(560, 290), duration: 0.3)
                             let right = SKAction.rotateToAngle(1.57, duration: 0.001)
-                            let little1 = SKAction.moveTo(CGPointMake(550, 330), duration: 0.1)
+                            let little1 = SKAction.moveTo(CGPointMake(550, 330), duration: 0.3)
                             let left = SKAction.rotateByAngle(0.789, duration: 0.001)
-                            let little2 = SKAction.moveTo(CGPointMake(526, 339), duration: 0.1)
+                            let little2 = SKAction.moveTo(CGPointMake(526, 339), duration: 0.3)
                             //roda mais
-                            let little3 = SKAction.moveTo(CGPointMake(433, 323), duration: 0.1)
+                            let little3 = SKAction.moveTo(CGPointMake(433, 323), duration: 0.3)
                             //roda mais
-                            let little4 = SKAction.moveTo(CGPointMake(470, 228), duration: 0.1)
+                            let little4 = SKAction.moveTo(CGPointMake(470, 228), duration: 0.3)
                             //saiu do loop uhul
-                            let little5 = SKAction.moveTo(CGPointMake(520, 182), duration: 0.1)
+                            let little5 = SKAction.moveTo(CGPointMake(520, 182), duration: 0.3)
                             let rotateNormal = SKAction.rotateToAngle(0.26, duration: 0.001)
-                            let out = SKAction.moveTo(CGPointMake(800, 188), duration: 0.2)
+                            let out = SKAction.moveTo(CGPointMake(800, 188), duration: 0.3)
                             
                             carSequence.append(little)
                             carSequence.append(right)
@@ -430,18 +432,20 @@ class SecondLevel: SKScene, SKPhysicsContactDelegate {
                         let moveUpwrong = SKAction.moveToY(380, duration: 0.2)
                         let scaleup = SKAction.scaleTo(1.5, duration: 0.001)
                         let resizeAgain = SKAction.resizeToHeight(carRC.size.height*2.5, duration: 0.001)
-                        let movedownwrong = SKAction.moveToY(350, duration: 0.3)
+                        let movedownwrong = SKAction.moveToY(350, duration: 1)
                         let rotate1 = SKAction.rotateByAngle(0.4, duration: 0.001)
                         let rotate2 = SKAction.rotateByAngle(-0.4, duration: 0.001)
-                        let movedown2 = SKAction.moveToY(300, duration: 0.3)
-                        let movedown3 = SKAction.moveToY(250, duration: 0.3)
-                        let movedown4 = SKAction.moveToY(200, duration: 0.3)
-                        let movedown5 = SKAction.moveToY(150, duration: 0.3)
-                        let movedown6 = SKAction.moveToY(100, duration: 0.3)
-                        let movedown7 = SKAction.moveToY(50, duration: 0.3)
-                        let movedown8 = SKAction.moveToY(0, duration: 0.3)
-                        let movedown9 = SKAction.moveToY(-100, duration: 0.3)
+                        let movedown2 = SKAction.moveToY(300, duration: 1)
+                        let movedown3 = SKAction.moveToY(250, duration: 1)
+                        let movedown4 = SKAction.moveToY(200, duration: 1)
+                        let movedown5 = SKAction.moveToY(150, duration: 1)
+                        let movedown6 = SKAction.moveToY(100, duration: 1)
+                        let movedown7 = SKAction.moveToY(50, duration: 1)
+                        let movedown8 = SKAction.moveToY(0, duration: 1)
+                        let movedown9 = SKAction.moveToY(-100, duration: 1)
+                        let wait = SKAction.waitForDuration(1)
 
+                        carSequence.append(wait)
                         carSequence.append(lostRC)
                         carSequence.append(resizeAgain)
                         carSequence.append(moveUpwrong)
@@ -492,7 +496,7 @@ class SecondLevel: SKScene, SKPhysicsContactDelegate {
                     
                     let node = SKNode()
                     scene?.addChild(node)
-                    let waitAction = SKAction.waitForDuration(7.5);
+                    let waitAction = SKAction.waitForDuration(12);
                     let action = SKAction.runBlock({ () -> Void in
                         self.createUIView()
                         self.nextScreen()

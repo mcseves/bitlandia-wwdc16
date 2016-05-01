@@ -79,7 +79,7 @@
 		09CFC9891C3EEA7A00EE83EE /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		09CFC98B1C3EEE8C00EE83EE /* LevelProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelProperties.swift; sourceTree = "<group>"; };
 		09CFC98D1C3EEE9900EE83EE /* ActionProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionProperties.swift; sourceTree = "<group>"; };
-		1B266AFC1C22EA6A00A858D0 /* Bit-landia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bit-landia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B266AFC1C22EA6A00A858D0 /* Maria Carolina Marinho Seves Santos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maria Carolina Marinho Seves Santos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B266AFF1C22EA6A00A858D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B266B031C22EA6A00A858D0 /* InitialScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScene.swift; sourceTree = "<group>"; };
 		1B266B051C22EA6A00A858D0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -210,7 +210,7 @@
 		1B266AFD1C22EA6A00A858D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B266AFC1C22EA6A00A858D0 /* Bit-landia.app */,
+				1B266AFC1C22EA6A00A858D0 /* Maria Carolina Marinho Seves Santos.app */,
 				1B266B141C22EA6A00A858D0 /* Bit-landiaTests.xctest */,
 				1B266B1F1C22EA6A00A858D0 /* Bit-landiaUITests.xctest */,
 			);
@@ -273,7 +273,7 @@
 			);
 			name = "Bit-landia";
 			productName = "Bit-landia";
-			productReference = 1B266AFC1C22EA6A00A858D0 /* Bit-landia.app */;
+			productReference = 1B266AFC1C22EA6A00A858D0 /* Maria Carolina Marinho Seves Santos.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1B266B131C22EA6A00A858D0 /* Bit-landiaTests */ = {
@@ -562,7 +562,7 @@
 				INFOPLIST_FILE = "Bit-landia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MMT.Bit-landia";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Maria Carolina Marinho Seves Santos";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -574,7 +574,7 @@
 				INFOPLIST_FILE = "Bit-landia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MMT.Bit-landia";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Maria Carolina Marinho Seves Santos";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
